@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "DecrementCalled",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "callDecrement",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"base/InterFaceDemo.sol": "TargetCaller"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"base/InterFaceDemo.sol": {
+			"keccak256": "0x42fd6665d310b70be5ff3d21a6fecf493cc3ac9bed36e94fcae7883b5a11f381",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0113ad7e84feb92d2e56422cc2cba12fe081e16e8f1772b8f055b895c93a4299",
+				"dweb:/ipfs/QmUPQ37mfBcH6r8Q9T1oikkjuAUrgQ4U5w4c6HrC9s9gyc"
+			]
+		}
+	},
+	"version": 1
+}
