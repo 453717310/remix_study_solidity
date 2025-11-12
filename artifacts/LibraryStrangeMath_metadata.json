@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "num1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "num2",
+						"type": "int256"
+					}
+				],
+				"name": "addTwoNums",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "num",
+						"type": "int256"
+					}
+				],
+				"name": "multiplyWithFactor",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"base/LibraryStrangeMath.sol": "LibraryStrangeMath"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"base/LibraryDemo.sol": {
+			"keccak256": "0xc1095b4ead4d29edfc22439f537f6a92f51197a0255f6a423c96ee325b46c82d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b90fb8571cd24c95b1e959691c205fe930c6a51c93ef90a01da19f83cdae3d5",
+				"dweb:/ipfs/QmQXZpmw6icdQy87ZhBsN4oVjeynw3TuAYCzShTEKDAGef"
+			]
+		},
+		"base/LibraryStrangeMath.sol": {
+			"keccak256": "0x7c8de8d9bdeb71bf5d23524ba3f212a5bd9d3dba2f222e8062f34a2c7a9bfbc4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d554d9237a320cfac6599d2a7b1a23576c02815e6443ff0125d6f2f97c413e20",
+				"dweb:/ipfs/QmTkCD3vjUXG6AE8zxj8E6pGPX62u5hVf49z6NEcaFoC7T"
+			]
+		}
+	},
+	"version": 1
+}
