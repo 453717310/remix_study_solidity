@@ -6,38 +6,17 @@
 	"output": {
 		"abi": [
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "count",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "int256",
-						"name": "num",
-						"type": "int256"
+						"internalType": "address",
+						"name": "_target",
+						"type": "address"
 					}
 				],
-				"name": "decrement",
+				"name": "callFallback",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -53,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"base/EtherSendDemo.sol": "EtherSendDemo"
+			"base/EtherSendDemo.sol": "EtherSendDemoCaller"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
